@@ -12,7 +12,7 @@ public class ContaTerminal {
     }
 
     void exibirMensagem() {
-        System.out.println("Olá "+getNomeCliente()+", obrigado por criar uma conta em nosso banco, sua agência é "+getAgencia()+", conta "+getNumero()+" e seu saldo "+getSaldo()+" já está disponível para saque");
+        System.out.println("Olá "+nomeCliente+", obrigado por criar uma conta em nosso banco, sua agência é "+agencia()+", conta "+numero()+" e seu saldo "+saldo+" já está disponível para saque");
     }
 
     public int getNumero() {
