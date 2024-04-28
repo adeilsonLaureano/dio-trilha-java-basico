@@ -15,7 +15,5 @@ public class App {
         
         ContaTerminal contaTerminal = new ContaTerminal(conta, agencia, nomeCliente, saldo);
 
-        contaTerminal.exibirMensagem();
-
     }
 }
